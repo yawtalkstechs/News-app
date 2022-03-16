@@ -1,0 +1,1 @@
+This is newspaper app
