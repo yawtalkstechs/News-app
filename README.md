@@ -1,1 +1,1 @@
-This is newspaper app
+This is a newspaper app
