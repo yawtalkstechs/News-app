@@ -738,8 +738,20 @@ select {
   max-width: 100%;
 }
 
+.flex-auto {
+  flex: 1 1 auto;
+}
+
 .flex-col {
   flex-direction: column;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.content-center {
+  align-content: center;
 }
 
 .items-center {
