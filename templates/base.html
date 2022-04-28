@@ -10,9 +10,18 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" integrity="sha512-wnea99uKIC3TJF7v4eKk4Y+lMz2Mklv18+r4na2Gn1abDRPPOeef95xTzdwGD9e6zXJBteMIhZ1+68QC5byJZw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 	</head>
 
-	<body class="bg-gray-50 font-serif leading-normal tracking-normal">
-		<div class="h-14 bg-gradient-to-r from-slate-700 to-slate-900">
-
+	<body class="bg-gray-50 font-serif leading-normal tracking-normal py-1">
+		<div>
+			<nav class="container flex justify-around py-8 mx-auto bg-white
+				h-14 bg-gradient-to-r from-slate-700 to-slate-900">
+				<div>
+					<h3 class="justify-items-start text-3xl font-medium text-white mx-auto text-left">News Arena Corporation</h3>
+				</div>
+				<div class="space-x-8">
+					<a href="{% url 'login' %}" class="text-white text-xl text-end">Login</a>
+					<a href=" " class="text-white text-xl text-end ">Sign Up</a>
+				</div>
+			</nav>
 		</div>	
 
 		<div class="container mx-auto">
